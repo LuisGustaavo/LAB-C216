@@ -1,0 +1,5 @@
+package br.inatel.labs.labrest.server.model;
+
+public class Curso {
+
+}

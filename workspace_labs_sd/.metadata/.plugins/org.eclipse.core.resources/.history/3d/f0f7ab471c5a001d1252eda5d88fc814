@@ -1,0 +1,8 @@
+package br.inatel.labs.labrest.server.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CursoService {
+
+}

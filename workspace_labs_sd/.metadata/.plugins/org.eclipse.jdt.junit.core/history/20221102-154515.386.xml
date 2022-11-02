@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CursoControllerTest.dadoCursoIdInvalido_quandoGetCursoPeloId_entaoRespondeComStatusNotFound" project="lab_rest_server" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.inatel.labs.labrest.server.controller.CursoControllerTest" time="1.141" displayname="CursoControllerTest" uniqueid="[engine:junit-jupiter]/[class:br.inatel.labs.labrest.server.controller.CursoControllerTest]">
+    <testcase name="dadoCursoIdInvalido_quandoGetCursoPeloId_entaoRespondeComStatusNotFound" classname="br.inatel.labs.labrest.server.controller.CursoControllerTest" time="1.141" displayname="dadoCursoIdInvalido_quandoGetCursoPeloId_entaoRespondeComStatusNotFound()" uniqueid="[engine:junit-jupiter]/[class:br.inatel.labs.labrest.server.controller.CursoControllerTest]/[method:dadoCursoIdInvalido_quandoGetCursoPeloId_entaoRespondeComStatusNotFound()]"/>
+  </testsuite>
+</testrun>

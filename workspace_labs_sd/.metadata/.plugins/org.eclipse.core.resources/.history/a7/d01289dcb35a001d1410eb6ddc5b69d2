@@ -1,0 +1,59 @@
+package br.inatel.labs.labrest.server.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.Random;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.stereotype.Service;
+
+import br.inatel.labs.labrest.server.model.Curso;
+
+/**
+ * Serviço com metodo de negocio para curso 
+ * @author gusta
+ *since 03 set 2022
+ */
+
+@Service
+public class CursoService {
+
+	private List<Curso> listadeCursos = new ArrayList<>();
+	
+	@PostConstruct
+	private void setup() {
+		Curso c1 = new Curso(1L, "REST com Spring Boot", 20);
+		Curso c2 = new Curso(2L, "Programação Java 11", 80);
+		Curso c3 = new Curso(3L, "Dominado a IDE Eclipse", 120);
+	
+		listadeCursos.add(c1);
+		listadeCursos.add(c2);
+		listadeCursos.add(c3);
+	}
+	
+	public List<Curso> pesquisarCurso(){
+		return listadeCursos;
+	}
+	
+	
+	public Optional<Curso> buscarCursoPeloId(Long cursoId) {
+		Optional<Curso> opCurso = listadeCursos.stream()
+		.filter(c -> c.getId().equals(cursoId))
+		.findFirst();
+		return opCurso;
+	}
+	
+	public Curso criarCurso(Curso curso) {
+		Long id = new Random().nextLong();
+		curso.setId(id);
+		listadeCursos.add(curso);
+		return curso;
+	}
+	
+	public void atualizarCurso(Curso curso) {
+		listadeCursos.remove(curso);
+	}
+	
+}

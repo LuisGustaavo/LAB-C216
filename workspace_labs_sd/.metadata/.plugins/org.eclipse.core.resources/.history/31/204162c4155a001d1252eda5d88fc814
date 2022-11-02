@@ -1,0 +1,5 @@
+package br.inatel.labs.labrest.server.controller;
+
+public class HelloController {
+
+}

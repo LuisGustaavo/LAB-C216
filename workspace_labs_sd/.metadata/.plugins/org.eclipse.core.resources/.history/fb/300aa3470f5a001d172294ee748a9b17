@@ -1,0 +1,9 @@
+package br.inatel.labs.labjpa.service;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class ExemploService {
+
+	@Value("${url_servico_autenticacao}")
+	private String url;
+}
