@@ -13,9 +13,9 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
 			<item value="org.eclipse.jdt.ui.edit.text.java.generate.tostring"/>
-			<item value="org.eclipse.jdt.ui.edit.text.java.generate.hashcode.equals"/>
 			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
 			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
+			<item value="org.eclipse.jdt.ui.edit.text.java.generate.hashcode.equals"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.commands"/>
@@ -24,16 +24,28 @@
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textEntries">
-			<item value="1"/>
-			<item value="1"/>
-			<item value="1"/>
-			<item value="1"/>
+			<item value="2"/>
+			<item value="2"/>
+			<item value="3"/>
+			<item value="2"/>
 		</list>
 		<list key="textArray">
+			<item value="tost"/>
 			<item value="tos"/>
-			<item value="equa"/>
 			<item value="ggas"/>
+			<item value="gga"/>
+			<item value="gc"/>
 			<item value="gcuf"/>
+			<item value="gcu"/>
+			<item value="equa"/>
+			<item value="equal"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
 		</list>
 	</section>
 </section>

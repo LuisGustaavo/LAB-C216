@@ -2,8 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\LABS_SD\workspace_labs_sd\lab_rest_server"/>
 			<item value="C:\LABS_SD\workspace_labs_sd\lab_jpa"/>
+			<item value="C:\LABS_SD\workspace_labs_sd\lab_rest_client"/>
+			<item value="C:\LABS_SD\workspace_labs_sd\lab_rest_server"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,5 +14,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
